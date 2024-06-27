@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive registration form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+   <div class="container">
+    <h1 class="form-title">registration</h1>
+    <form action="#">
+        <div class="main-user-info">
+            <div class="user-input-box">
+                <label for="fullname">full name</label>
+                <input type="text"
+                       id="fullname"
+                       name="fullname"
+                       placeholder="enter full name"/>
+                    
+            </div>
+            <div class="user-input-box">
+                <label for="username">full username</label>
+                <input type="text"
+                       id="username"
+                       name="username"
+                       placeholder="enter username"/>
+                    
+            </div>
+            <div class="user-input-box">
+                <label for="email">Email</label>
+                <input type="text"
+                       id="email"
+                       name="email"
+                       placeholder="enter email"/>
+                    
+            </div>
+            <div class="user-input-box">
+                <label for="phone number">phone number</label>
+                <input type="text"
+                       id="phonenumber"
+                       name="phonenumber"
+                       placeholder="enter phonenumber"/>
+                    
+            </div>
+            <div class="user-input-box">
+                <label for="confirm password">confirm password</label>
+                <input type="text"
+                       id="confirm password"
+                       name="confirm password"
+                       placeholder="enter password"/>
+                    
+            </div>
+        </div>
+        <div class="gender-details-box">
+            <span class="gender-title">gender</span>
+            <div class="gender-category">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+        <div class="form-submit-btn">
+            <input type="submit" value="register">
+        </div>
+    </form>
+   </div>
+</body>
+</html>
